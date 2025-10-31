@@ -5,16 +5,16 @@ import { ExternalLink, Github, Cloud, Container, Shield, BarChart3 } from 'lucid
 const Projects = () => {
   const projects = [
     {
-      title: 'National OpenG2P Platform Infrastructure',
-      description: 'Designed and built the core infrastructure for Ethiopia\'s national OpenG2P platform with secure, highly-available Kubernetes, SSO, and network overlays.',
+      title: 'F5 Load Balancer',
+      description: 'Configure and manage F5 BIG-IP appliances for \' Siinqee Bank platform with secure, highly-available ,  and network overlays.',
       icon: Cloud,
-      technologies: ['RKE2', 'Rancher', 'Istio', 'Keycloak', 'XCP-ng', 'WireGuard', 'Helm', 'Terraform'],
+      technologies: ['TMOS', 'TMM', 'iRules', 'iApps', 'iWorkflow', 'AS3', 'Monitors', ],
       features: [
-        'Enterprise-grade RKE2 clusters managed with Rancher',
-        'Zero-trust SSO with Keycloak and fine-grained RBAC',
-        'Service mesh traffic policies and mTLS via Istio',
-        'HA storage and hardware RAID for durability',
-        'Secure site-to-site connectivity using WireGuard'
+        'Intelligent Load Balancing',
+        'Application Security (WAF)',
+        'Performance Optimization',
+        'Comprehensive Analytics & Monitoring',
+        'Session Persistence'
       ],
       github: '#',
       demo: '#',
@@ -37,16 +37,15 @@ const Projects = () => {
       image: '📡'
     },
     {
-      title: 'Estate Scraper – Production Setup (Hostinger-Ready)',
-      description: 'Hardened end-to-end stack for estate scraping with API + Worker + Redis, proxy-ready crawlers, and n8n integration. One-click scripts for VPS setup.',
-      icon: BarChart3,
-      technologies: ['Express', 'Zod', 'Redis', 'Docker Compose', 'Crawlee', 'Puppeteer-stealth', 'PostgreSQL', 'n8n'],
+      title: 'Oracle Exadata Database Machine',
+      description: 'Successfully implemented and configured Oracle Exadata Database Machine to optimize database performance, scalability, and reliability for enterprise workloads.',
+      technologies: ['Oracle Database 19c / 21c', 'ASM', 'SSD', 'Data Guard', 'SQL/PLSQL', 'RMAN', 'ExaCLI / DBMCLI', 'InfiniBand Networking'],
       features: [
-        'API with validation, CORS, rate limiting and job/auth tokens',
-        'Worker with proxy support and bandwidth-friendly blocking',
-        'Graceful shutdown of Redis/DB; health and queue status endpoints',
-        'DB schema + migrations for listings and snapshots',
-        'Hostinger scripts for setup, migration and end-to-end tests'
+        'High Performance',
+        'Extreme Scalability',
+        'High Availability & Fault Tolerance',
+        'Hybrid Cloud Support',
+        'Security and Data Protection'
       ],
       github: '#',
       demo: '#',
@@ -69,16 +68,16 @@ const Projects = () => {
       image: '🏦'
     },
     {
-      title: 'Ethiopia Tax Payment Portal (MoR)',
-      description: 'Clustered tax payment platform with Kubernetes, GitLab CI, Vault secrets, and robust logging/monitoring for production operations.',
+      title: 'Integrated Justice Court Management System (IJCMS) Project Lead',
+      description: 'Integrated Justice Court Management System  designed to streamline and automate judicial processes.',
       icon: Shield,
-      technologies: ['Kubernetes', 'Ansible', 'GitLab CI', 'HashiCorp Vault', 'PostgreSQL', 'Keycloak', 'ELK', 'Superset', 'Jasper'],
+      technologies: ['Java', 'Spring boot', 'Camunda', 'Reactjs', 'PostgreSQL', 'Shadcn', 'TailwindCss', ],
       features: [
-        'K8s orchestration with Ansible-driven configuration',
-        'Protected job submission and admin queue inspect endpoints',
-        'Vault-managed secrets and secure SSO (Keycloak)',
-        'ELK-based log analytics and business reporting (Superset/Jasper)',
-        'End-to-end health checks and resilience policies'
+        'Case Management',
+        'Integrated Stakeholder Access',
+        'Scheduling & Hearings Management',
+        'Document & Evidence Management',
+        'Reporting & Analytics'
       ],
       github: '#',
       demo: '#',
@@ -100,15 +99,15 @@ const Projects = () => {
       image: '💳'
     },
     {
-      title: 'Cloud-Native Platform for AI/Automation Workloads',
-      description: 'Provisioned GPU-ready RKE2 clusters and standardized Helm-based deployments for internal platform teams.',
+      title: 'Enterprise Resource Planning',
+      description: 'Implemented and managed ERP systems to streamline finance, HR, supply chain, and production processes, improving operational efficiency and real-time reporting..',
       icon: BarChart3,
-      technologies: ['RKE2', 'Terraform', 'Terragrunt', 'Helm', 'Teleport', 'Prometheus', 'Grafana', 'Mimir'],
+      technologies: ['PostgreSQL', 'Java', 'PHP', 'React', 'SSL/TLS', 'OAuth', 'Power BI', 'Python'],
       features: [
-        'GPU-enabled clusters for data and automation apps',
-        'Shared Helm stacks for 5+ environments',
-        'Teleport for secure, identity-aware access',
-        'Observability via Prometheus/Grafana/Mimir'
+        'Centralized Data Management',
+        'Human Resource Management (HRM)',
+        'Finance & Accounting',
+        'Customer Relationship Management (CRM)'
       ],
       github: '#',
       demo: '#',
@@ -253,7 +252,7 @@ const Projects = () => {
             Want to see more projects or discuss a collaboration?
           </p>
           <a
-            href="https://github.com/Tedion"
+            href="https://github.com/dawiay"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center gap-2"

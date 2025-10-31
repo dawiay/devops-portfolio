@@ -33,7 +33,7 @@ const Hero = () => {
                 className="text-5xl lg:text-6xl font-extrabold text-white leading-tight"
               >
                 Hi, I'm{' '}
-                <span className="gradient-text">Teddy Abera</span>
+                <span className="gradient-text">Dawit Ayansa</span>
               </motion.h1>
               
               <motion.h2
@@ -42,7 +42,7 @@ const Hero = () => {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-2xl lg:text-3xl font-medium text-gray-300"
               >
-                DevOps Engineer & Cloud Architect
+                DevOps Engineer & Project Manager
               </motion.h2>
               
               <motion.p
@@ -51,9 +51,10 @@ const Hero = () => {
                 transition={{ duration: 0.8, delay: 0.6 }}
                 className="text-lg text-gray-300 max-w-2xl leading-relaxed"
               >
-                Passionate about automating infrastructure, optimizing CI/CD pipelines, 
-                and building scalable cloud solutions. I specialize in AWS, Kubernetes, 
-                Docker, and modern DevOps practices to help teams deliver faster and more reliably.
+                Passionate about automating infrastructure, optimizing CI/CD pipelines, and building scalable cloud solutions. 
+                I specialize in AWS, Kubernetes, Docker, and modern DevOps practices to help teams deliver faster and more reliably. 
+                As a Project Manager, I lead cross-functional teams, oversee project lifecycles from planning to delivery, 
+                manage resources and timelines, and ensure that projects align with business goals while maintaining quality and efficiency.
               </motion.p>
             </div>
 
@@ -68,7 +69,7 @@ const Hero = () => {
                 Get In Touch
               </button>
               <a
-                href="https://docs.google.com/document/d/1LCKshjc6qhh0v4ZMrlcLvtqtSM_Vq9kw/export?format=pdf"
+                href="https://drive.google.com/uc?export=download&id=1T9aQuERIQ-sN3LXgvpFXBGjl43UQDlYJ"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary inline-flex items-center gap-2"
@@ -85,7 +86,7 @@ const Hero = () => {
               className="flex space-x-6"
             >
               <a 
-                href="https://github.com/Tedion" 
+                href="https://github.com/dawiay" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-primary-400 transition-colors duration-300"
@@ -93,7 +94,7 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a 
-                href="https://linkedin.com/in/teddy-abera" 
+                href="https://www.linkedin.com/in/dawit-ayansa-90526431a/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-primary-400 transition-colors duration-300"
@@ -101,7 +102,7 @@ const Hero = () => {
                 <Linkedin size={24} />
               </a>
               <a 
-                href="mailto:tedionabera@gmail.com"
+                href="mailto:dawit.ayanssa@gmail.com"
                 className="text-gray-300 hover:text-primary-400 transition-colors duration-300"
               >
                 <Mail size={24} />

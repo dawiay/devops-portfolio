@@ -43,7 +43,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <button onClick={() => scrollToSection('#home')} className="text-2xl font-bold gradient-text hover:scale-105 transition-transform">
-              💻 Teddy Abera
+              💻  Dawit Ayansa
             </button>
           </div>
 

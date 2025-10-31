@@ -5,8 +5,8 @@ import { Code2, Cloud, Settings, Users } from 'lucide-react'
 const About = () => {
   const stats = [
     { label: 'Years Experience', value: '5+', icon: Code2 },
-    { label: 'Projects Deployed', value: '50+', icon: Cloud },
-    { label: 'Systems Automated', value: '100+', icon: Settings },
+    { label: 'Projects Deployed', value: '20+', icon: Cloud },
+    { label: 'Systems Automated', value: '50+', icon: Settings },
     { label: 'Teams Supported', value: '10+', icon: Users },
   ]
 
@@ -30,7 +30,7 @@ const About = () => {
           <div className="bg-gray-900 rounded-xl p-6 border border-gray-800">
             <h3 className="text-2xl font-bold text-white mb-4">Professional Summary</h3>
             <p className="text-gray-300 leading-relaxed">
-              Mid-level DevOps Engineer with a strong foundation in building, automating, and securing scalable infrastructures across cloud and on-premise platforms. Experienced in containerization and orchestration with Docker and Kubernetes (RKE2); infrastructure automation with Terraform, Terragrunt, and Ansible; CI/CD pipelines using Jenkins and GitLab; network architecture and secure access with Nginx, Apache, HAProxy, and Keycloak; and monitoring/logging with Zabbix, Prometheus, Grafana, and the ELK stack. Committed to delivering robust solutions that enhance performance, security, and deployment agility in dynamic environments.
+              Mid-level DevOps Engineer and Project Manager with a strong foundation in building, automating, and securing scalable infrastructures across cloud and on-premise platforms. Experienced in containerization and orchestration with Docker and Kubernetes (RKE2); infrastructure automation with Terraform, Terragrunt, and Ansible; CI/CD pipelines using Jenkins and GitLab; network architecture and secure access with Nginx, Apache, HAProxy, and Keycloak; and monitoring/logging with Zabbix, Prometheus, Grafana, and the ELK stack. Skilled in managing projects, coordinating cross-functional teams, and delivering solutions on time while ensuring performance, security, and deployment agility in dynamic environments.
             </p>
           </div>
         </div>
@@ -58,9 +58,11 @@ const About = () => {
             </p>
 
             <p className="text-lg text-gray-300 leading-relaxed">
-              Currently leading Ethiopia\'s OpenG2P initiatives with ATI, MoWSA, and EDRMC—standing up secure, scalable
-              platforms for farmer registries, social registries, and benefits delivery; planning ODK → OpenG2P data
-              migration with validation and auditability. Open to remote opportunities.
+              Atlas Computer Technology is generally a service-based company and closely working in cooperation 
+              with international IT companies in providing IT solutions and support services primarily for different financial institutions.
+               In additional to this Atlas has a dedicated system developers team that work in different technologies and well organized. 
+              
+  
             </p>
           </motion.div>
 

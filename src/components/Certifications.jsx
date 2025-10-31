@@ -3,20 +3,18 @@ import { motion } from 'framer-motion'
 
 const certifications = [
 	{
-		title: 'Advanced Kubernetes',
+		title: 'Linux Fundamental',
 		issuer: 'LinkedIn Learning',
 		issued: 'Apr 2025',
 		expires: '',
-		credentialId: 'bce78c6a65350da61f9bcfd9c1eb5fb8d3c3575a9ea7437a86f10d7a33d42cd5',
-		skills: ['Kubernetes']
+		skills: ['Security Fundamentals,Storage and Disk Management,Shell Scripting Basics,Networking Basics,Process and Job Management']
 	},
 	{
-		title: 'Advanced Terraform',
+		title: 'F5 Load Balancer',
 		issuer: 'LinkedIn Learning',
 		issued: 'Mar 2025',
 		expires: 'May 2028',
-		credentialId: 'ec8d3f2289c0ae7ff0fe9fb42af32ddd11e878d2c79e683c1cbfd528519063b2',
-		skills: ['Terraform']
+		skills: ['F5 BIG-IP ,Networking & Protocols,iRules & Scripting,Automation & Integration']
 	},
 	{
 		title: 'Build a CI/CD Pipeline',
@@ -31,16 +29,7 @@ const certifications = [
 		issuer: 'LinkedIn Learning',
 		issued: 'Mar 2025',
 		expires: 'Jun 2030',
-		credentialId: 'a77552ad4a325ad0aa7faa39b1809040c404f62bbc38a1be220c3e3716a9c72a',
 		skills: ['DevOps', 'Site Reliability Engineering (SRE)']
-	},
-	{
-		title: 'Running Kubernetes on AWS (EKS)',
-		issuer: 'LinkedIn Learning',
-		issued: 'Mar 2025',
-		expires: 'Aug 2028',
-		credentialId: '4611efa804745b3ee9437d355f00a1e264cc3e368f5c192cdb8a9825ee9439f9',
-		skills: ['Kubernetes', 'Amazon EKS', 'AWS']
 	}
 ]
 

@@ -5,49 +5,39 @@ import { Calendar, MapPin, Briefcase } from 'lucide-react'
 const Experience = () => {
   const experiences = [
     {
-      title: 'Backend/DevOps Engineer',
-      company: 'Centriweb - Remote, Auckland, New Zealand',
-      location: 'Remote · Auckland, NZ',
-      period: 'June 2025 - Present',
-      description: 'Delivering backend and DevOps solutions supporting scalable, cloud-based applications for international clients.',
+      title: 'Lecturer',
+      company: 'Ambo University',
+      location: 'Ambo,Ethiopia',
+      period: 'June 2019 - 2022',
+      description: 'Prepare and deliver lectures, tutorials, and laboratory sessions in computer science.',
       achievements: [
-        'Implementing infrastructure automation with Terraform for consistent and auditable deployments',
-        'Streamlining CI/CD pipelines and deployment strategies to accelerate release cycles',
-        'Monitoring and maintaining cloud resources for performance, reliability, and cost-efficiency',
-        'Driving continuous improvement by integrating additional DevOps tools to optimize workflows'
+        'Programming (Python, Java, C++, etc.),Data Structures and Algorithms',
+        'Advise students on academic progress and career development',
+        'Artificial Intelligence / Machine Learning, Computer Networks',
+        'Publish papers in journals or present findings at conferences.'
       ],
-      technologies: ['Terraform', 'CI/CD', 'Cloud', 'Automation']
+      technologies: ['Sql', 'Java', 'C++', 'C#']
     },
           {
-        title: 'OpenG2P Platform DevOps Engineer',
-        company: 'Government Digital Transformation Project',
-        location: 'Ethiopia · Government',
-        period: 'July 2025 - Present',
-        description: `Leading DevOps implementation for Ethiopian Agricultural Transformation Institute (ATI), the Ministry of Women and Social Affairs (MoWSA), and the Ethiopian Disaster Risk Management Commission (EDRMC), aimed at leveraging digital solutions to transform lives across the country.
-
-Through these partnerships, OpenG2P is supporting G2P systems as part of Ethiopia's Fayda ID–enabled digital transformation journey.
-
-ATI × OpenG2P
-Implementing a robust, interoperable farmer profile and a comprehensive database of uniquely identified smallholder farmers and farm information. The farmer registry will enable effective digital agriculture services by multiple stakeholders and will be introduced as an open-source platform, allowing private and public entities to collaborate and offer services with farmers' consent.
-
-MoWSA × OpenG2P
-Implementing a feature-rich, robust social registry; efficient benefits management and delivery system; enabling secure data exchange between MoWSA and other departments; and facilitating digital cash transfers—supporting national objectives of poverty alleviation, transparent and equitable access, and sustainable livelihoods.
-
-EDRMC × OpenG2P
-Implementing an efficient Program and Beneficiary Management System to enable better data collection and management, deliver benefits, and monitor performance for disaster response (e.g., droughts, floods), including support for internally displaced persons (IDPs).`,
+        title: 'Senior System Administrator',
+        company: 'Siinqee Bank',
+        location: 'Addis Ababa Ethiopia',
+        period: 'July 2023 - 2024',
+        description: `
+`,
         achievements: [
-          'Architected dual-infrastructure across Ethio Telecom cloud and MoWSA on-premises; ATI tele-cloud and on-premises; and EDRMC tele-cloud',
-          'Deployed enterprise Kubernetes clusters using RKE2 with Rancher, Istio service mesh, and Keycloak SSO',
+          'Install, configure, and maintain operating systems (Windows Server, Linux, macOS).',
+          'Monitor server and network health using tools like Nagios, Zabbix, Prometheus, or Grafana.',
           'Configured HA infrastructure with Hardware RAID 1+0, XCP-ng hypervisor, and WireGuard VPN',
-          'Implementing beneficiary data migration from ODK to OpenG2P for social protection programs'
+          'Develop and maintain data backup and recovery strategies.'
         ],
         technologies: ['RKE2', 'Rancher', 'Istio', 'Keycloak', 'XCP-ng', 'WireGuard']
       },
     {
-      title: 'Senior DevOps Engineer (Cloud & Platform Team)',
-      company: 'Exponent.ch - Remote Contract',
-      location: 'Remote',
-      period: 'April 2025 - June 2025',
+      title: 'Senior DevOps Engineer ',
+      company: 'Atlas Computer Technology',
+      location: 'Addis Ababa',
+      period: 'April 2024 - Mar 2025',
       description: 'Architected scalable cloud-native infrastructure and deployment pipelines for AI/ML workloads.',
       achievements: [
         'Built RKE2 Kubernetes clusters with Terraform/Terragrunt; 40% faster deployments',
@@ -60,33 +50,20 @@ Implementing an efficient Program and Beneficiary Management System to enable be
       technologies: ['RKE2', 'Terraform', 'Terragrunt', 'Helm', 'Teleport', 'Prometheus', 'Grafana', 'Mimir']
     },
     {
-      title: 'DevOps Engineer',
+      title: 'Project Manager',
       company: 'Atlas Computer Technology',
       location: 'Ethiopia',
-      period: 'February 2023 - June 2025',
-      description: 'Delivered enterprise DevOps for mobile banking platforms serving 1M+ users across 6 banks.',
+      period: 'Mar 2025 - Present',
+      description: 'Delivered More than 6 Projects across  banks and governmental projects.',
       achievements: [
-        'Containerized mobile banking with Docker and Kubernetes; 99.95% uptime with Nginx, ActiveMQ, WildFly, MySQL',
-        'Hybrid cloud with Proxmox and AWS; optimized costs by 35%',
-        'Centralized logging with ELK processing 10TB+ daily logs; real-time analytics and alerting',
-        'Built Jenkins CI/CD for Maven-based Java apps; reduced deployments from 4 hours to 15 minutes'
+        'Monitor project progress: track schedule, budget, risks, issues, dependencies; provide regular status updates to stakeholders.',
+        'Coordinate cross-functional teams (IT, infrastructure, operations, vendors) to execute the project on time, within budget, and meeting quality standards.',
+        'Manage infrastructure deployments, system upgrades, software implementations, or digital transformation projects.',
+        'Track project progress using Agile or Waterfall methodologies.'
       ],
-      technologies: ['Docker', 'Kubernetes', 'Nginx', 'ActiveMQ', 'WildFly', 'MySQL', 'Proxmox', 'AWS', 'ELK', 'Jenkins']
+      technologies: ['Scrum', 'Agile', 'PM', 'Jira', 'ScrumWise', 'MySQL', ]
     },
-    {
-      title: 'Junior DevOps Engineer',
-      company: 'Atlas Computer Technology',
-      location: 'Ethiopia',
-      period: 'September 2021 - January 2023',
-      description: 'Supported on-prem cloud infrastructure and banking solutions in UAT and production.',
-      achievements: [
-        'Managed Proxmox virtualization supporting 50+ VMs for banking applications',
-        'Deployed and tested USSD and mobile banking solutions in UAT with 100% functional compliance',
-        'Implemented security policies and monitoring with Zabbix, Grafana, and ELK',
-        'Collaborated with development teams to reduce production issues by 70% through robust testing'
-      ],
-      technologies: ['Proxmox', 'Zabbix', 'Grafana', 'ELK']
-    }
+    
   ]
 
   return (

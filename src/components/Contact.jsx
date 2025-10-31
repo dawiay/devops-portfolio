@@ -36,7 +36,7 @@ const Contact = () => {
       if (!API_BASE) {
         const mailtoSubject = encodeURIComponent(`[Portfolio] ${formData.subject} (from ${formData.name})`)
         const mailtoBody = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`)
-        window.location.href = `mailto:tedionabera@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`
+        window.location.href = `mailto:dawit.ayanssa@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`
         setStatus({ type: 'success', message: 'Opening your email client…' })
         setFormData({ name: '', email: '', subject: '', message: '' })
         return
@@ -62,19 +62,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'tedionabera@gmail.com',
-      link: 'mailto:tedionabera@gmail.com'
+      value: 'dawit.ayanssa@gmail.com',
+      link: 'mailto:dawit.ayanssa@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+251 910 161 555',
-      link: 'tel:+251910161555'
+      value: '+251 920 838 954',
+      link: 'tel:+251920838954'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'Available for Remote Work',
+      value: 'Addis Ababa , Ethiopia',
       link: null
     }
   ]
@@ -83,21 +83,16 @@ const Contact = () => {
     {
       icon: Github,
       name: 'GitHub',
-      url: 'https://github.com/Tedion',
+      url: 'https://github.com/dawiay',
       color: 'hover:text-gray-900'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/teddy-abera',
+      url: 'https://www.linkedin.com/in/dawit-ayansa-90526431a/',
       color: 'hover:text-blue-600'
     },
-    {
-      icon: Twitter,
-      name: 'X',
-      url: 'https://x.com/DTedion',
-      color: 'hover:text-blue-400'
-    }
+    
   ]
 
   return (

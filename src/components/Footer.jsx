@@ -7,19 +7,15 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      url: 'https://github.com/Tedion',
+      url: 'https://github.com/dawiay',
       label: 'GitHub'
     },
     {
       icon: Linkedin,
-      url: 'https://linkedin.com/in/teddy-abera',
+      url: 'https://www.linkedin.com/in/dawit-ayansa-90526431a/',
       label: 'LinkedIn'
     },
-    {
-      icon: Twitter,
-      url: 'https://x.com/DTedion',
-      label: 'X (Twitter)'
-    }
+    
   ]
 
   const quickLinks = [
@@ -51,7 +47,7 @@ const Footer = () => {
               onClick={scrollToTop}
               className="text-2xl font-bold gradient-text hover:scale-105 transition-transform mb-4"
             >
-              Teddy Abera
+              Dawit Ayansa
             </button>
             <p className="text-gray-400 mb-4 max-w-md">
               DevOps Engineer passionate about building reliable, scalable infrastructure 
@@ -96,10 +92,10 @@ const Footer = () => {
             <div className="space-y-2 text-gray-400">
               <p>
                 <a 
-                  href="mailto:tedionabera@gmail.com"
+                  href="mailto:dawit.ayanssa@gmail.com"
                   className="hover:text-white transition-colors duration-300"
                 >
-                  tedionabera@gmail.com
+                  dawit.ayanssa@gmail.com
                 </a>
               </p>
               <p>Available for Remote Work</p>
@@ -119,7 +115,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0 flex items-center">
-            <span>© {currentYear} Teddy Abera. Made with</span>
+            <span>© {currentYear} Dawit Ayansa. Made with</span>
             <Heart className="text-red-500 mx-1" size={16} />
             <span>and lots of ☕</span>
           </div>
