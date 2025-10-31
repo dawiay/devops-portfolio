@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
 	const apiBase = process.env.VITE_API_BASE || ''
 	return {
 		plugins: [react()],
-		base: process.env.VITE_BASE || '/devops-portfolio/',
+		base: './',  // <-- FIX: use relative paths for Vercel deployment
 		server: {
 			proxy: {
 				'/api': 'http://localhost:5000'
