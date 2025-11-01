@@ -114,15 +114,15 @@ const Projects = () => {
       image: '🤖'
     },
     {
-      title: 'Beneficiary Data Migration to OpenG2P',
-      description: 'Planned and implemented data migration workflows from ODK to OpenG2P with validation, auditability, and rollbacks.',
+      title: 'Amhara Tourism System',
+      description: 'Successfully deployed a responsive, fast, and user-friendly tourism management system that enhances the visibility of Amhara’s tourist destinations and supports regional tourism development through digital transformation.',
       icon: Shield,
-      technologies: ['ODK', 'OpenG2P', 'Python', 'Airflow (planned)', 'PostgreSQL'],
+      technologies: ['React.js', 'Tailwind CSS', 'Python', 'GitHub ', 'PostgreSQL'],
       features: [
-        'Schema mapping and transformation planning',
-        'Validation and reconciliation checks',
-        'Rollback strategy and audit trails',
-        'Incremental migration pipelines (phased)'
+        'Tourist Destination Directory',
+        'Interactive Map Integration',
+        'Multilingual Support',
+        'Secure & Scalable Architecture'
       ],
       github: '#',
       demo: '#',
